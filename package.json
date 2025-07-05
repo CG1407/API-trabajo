@@ -1,0 +1,15 @@
+{
+  "name": "api-rest-node",
+  "version": "1.0.0",
+  "description": "API REST con autenticación JWT, CRUD para productos, conexión a MySQL, y roles de usuario.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "bcrypt": "^5.1.0"
+  }
+}
